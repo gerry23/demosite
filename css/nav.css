@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+}
+#menu1 {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+ ul {
+     margin: 0px;
+     /*display: inline-block;*/
+     list-style: none;
+ }
+ 
+
+#menu1 ul {
+    background-color: #aaa;
+    padding-left: 0px;
+}
+
+#menu1 ul li a {
+    color: #fff;
+}
+
+#menu1 ul.level_2 {
+    display: none;
+    position: absolute;
+}   
+
+#menu1 ul.level_1 > li:hover ul.level_2 {
+    display: block;
+}
+
+#menu1 ul.level_1 > li {
+    display: inline-block;
+
+}
+
+#menu1 ul.level_1 > li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+#menu1 ul.level_2 > li a:hover{
+    background-color: red;
+    color: #fff;
+}
+
+p {
+    
+}
